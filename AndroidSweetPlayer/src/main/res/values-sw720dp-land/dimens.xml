@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="player_artist_image_padding">2dp</dimen>
+</resources>

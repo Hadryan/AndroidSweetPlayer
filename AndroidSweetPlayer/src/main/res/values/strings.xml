@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name" translatable="false">AndroidSweetPlayer</string>
+    <string name="about_text">Disfruta de AndroidSweetPlayer ahora en tu móvil y tableta. Artistas, Álbumes y canciones TOP. \n\nAndroidSweetPlayer es una aplicación Streaming. Para poder escuchar música requieres de una conexión a Internet. A mayor velocidad de conexión, mejor tiempo de respuesta.\n
+    </string>
+
+    <!-- Internet connection / Messages -->
+    <string name="image">Imagen</string>
+    <string name="no_internet_message">Te encuentras sin conexión a Internet.</string>
+    <string name="no_internet_title">Sin conexión a Internet.</string>
+    <string name="no_server_message">Disculpa la molestia. Estamos mejorando el servicio y nuestro servidor se encuentra en mantenimiento.</string>
+    <string name="no_server_title">Servidor en mantenimiento.</string>
+    <string name="processing_text">Procesando..</string>
+
+    <!-- Menu / Action Bar -->
+    <string name="about">Acerca de</string>
+    <string name="add">Agregar</string>
+    <string name="add_to_playlist">Agregar a Playlist</string>
+    <string name="albums">Álbumes</string>
+    <string name="artists">Artistas</string>
+    <string name="artists_desc">canciones</string>
+    <string name="cancel">Cancelar</string>
+    <string name="genres">Géneros</string>
+    <string name="genres_desc">artistas</string>
+    <string name="home">Inicio</string>
+    <string name="playlist" translatable="false">Playlist</string>
+    <string name="search">Buscar</string>
+    <string name="top" translatable="false">Top</string>
+    <string name="view_albums">Ver Álbumes</string>
+    <string name="view_lyrics">Ver Letra</string>
+
+    <!-- Player -->
+    <string name="next_song">Siguiente canción</string>
+    <string name="no_lyric">Esta canción aún no tiene letra.</string>
+    <string name="not_selected">No haz seleccionado ninguna canción</string>
+    <string name="not_song">No haz reproducido alguna canción</string>
+    <string name="player" translatable="false">Player</string>
+    <string name="previous_song">Anterior canción</string>
+    <string name="repeat_off">Repetir canción: Desactivado.</string>
+    <string name="repeat_on">Repetir canción: Activado.</string>
+    <string name="shuffle_off">Cancion aleatoria: Desactivado.</string>
+    <string name="shuffle_on">Cancion aleatoria: Activado.</string>
+
+    <!-- Playlist -->
+    <string name="playlist_added">Canción agregada al Playlist.</string>
+    <string name="playlist_already_added">Esta canción ya está agregada.</string>
+    <string name="playlist_deleted">Canción eliminada del Playlist.</string>
+    <string name="playlist_empty">Aun no haz agregado canciones al Playlist.</string>
+    <string name="playlist_multiple_added">Canciones Agregadas al Playlist</string>
+
+    <!-- Search -->
+    <string name="search_artist_hint">Nombre de Artista..</string>
+    <string name="search_empty">No se encontró ningun resultado para tu búsqueda.</string>
+    <string name="search_hint">Buscar Canción</string>
+    <string name="search_text_empty">Debes ingresar un nombre de Artista o Canción.</string>
+
+    <!-- Share -->
+    <string name="share">Compartir</string>
+    <string name="sharing_android_app">en la app AndroidSweetPlayer:</string>
+    <string name="sharing_text" translatable="false">#NowPlaying</string>
+    <string name="sharing_title">¿Cómo deseas compartir?</string>
+
+    <!-- Social Networks -->
+    <string name="facebook_link" translatable="false">https://www.facebook.com/YOUR_APP_HERE</string>
+    <string name="twitter_link" translatable="false">https://twitter.com/YOUR_APP_HERE</string>
+</resources>

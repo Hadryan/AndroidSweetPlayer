@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="artist_detail_array">
+        <item>Canciones Top</item>
+        <item>Ordernar Alfabéticamente</item>
+        <item>Álbumes</item>
+    </string-array>
+</resources>

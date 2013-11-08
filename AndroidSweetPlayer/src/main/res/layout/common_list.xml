@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_padding"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:background="@drawable/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_edit_margin"
+        android:inputType="text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/searchEditColor"
+        android:textColorHint="@color/searchEditColor"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:background="@drawable/button_custom"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:gravity="center"
+        android:layout_alignTop="@+id/searchEditText"
+        android:layout_toRightOf="@+id/searchEditText"
+        style="@style/ButtonText"
+        android:visibility="gone" />
+
+    <Spinner
+            android:id="@+id/genre_spinner"
+            android:layout_below="@id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/detail_margin"
+            android:layout_marginBottom="@dimen/detail_margin"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/genre_name"
+            android:layout_below="@id/genre_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/detail_margin"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+            android:id="@+id/genre_image"
+            android:contentDescription="@string/genres"
+            android:layout_below="@id/genre_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/gridview"
+              android:layout_below="@id/genre_image"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:columnWidth="@dimen/gridview_column_size"
+              android:numColumns="auto_fit"
+              android:verticalSpacing="20dp"
+              android:horizontalSpacing="5dp"
+              android:stretchMode="columnWidth"
+              android:gravity="center" />
+</RelativeLayout>

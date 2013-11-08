@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genre_detail_array">
+        <item>Voltar</item>
+        <item>Todos os gêneros</item>
+        <item>Ordem alfabética</item>
+    </string-array>
+</resources>

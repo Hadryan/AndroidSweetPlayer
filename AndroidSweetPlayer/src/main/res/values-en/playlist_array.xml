@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="playlist_array">
+        <item>Sort by Date</item>
+        <item>Sort Alphabetically</item>
+    </string-array>
+</resources>

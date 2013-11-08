@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="artist_image_size">160dp</dimen>
+    <dimen name="gridview_column_size">160dp</dimen>
+</resources>

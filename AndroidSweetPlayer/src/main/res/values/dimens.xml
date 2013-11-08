@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="about_text_margin">5dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_padding">4dp</dimen>
+    <dimen name="artist_image_size">60dp</dimen>
+    <dimen name="detail_margin">4dp</dimen>
+    <dimen name="delete_button_margin">2dp</dimen>
+    <dimen name="gridview_column_size">90dp</dimen>
+    <dimen name="player_artist_image_padding">5dp</dimen>
+    <dimen name="player_container_margin">20dp</dimen>
+    <dimen name="player_footer_height">100dp</dimen>
+    <dimen name="player_header_height">60dp</dimen>
+    <dimen name="player_header_padding">5dp</dimen>
+    <dimen name="player_header_text_size">18dp</dimen>
+    <dimen name="player_icons_margin">10dp</dimen>
+    <dimen name="player_progressbar_margin">30dp</dimen>
+    <dimen name="player_timer_margin">10dp</dimen>
+    <dimen name="search_edit_margin">3dp</dimen>
+    <dimen name="song_artist_image_margin">6dp</dimen>
+    <dimen name="song_artist_image_size">60dp</dimen>
+    <dimen name="song_name_padding">6dp</dimen>
+    <dimen name="tabs_textsize">12dp</dimen>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="about_text">Enjoy AndroidSweetPlayer now in your mobile and tablet. TOP Artists, Albums and the last hits. \n\nAndroidSweetPlayer is an streaming music app, so you need an Internet connection to listen to music. A higher connection speed will speed up the response time.\n
+    </string>
+
+    <!-- Internet connection / Messages -->
+    <string name="image">Image</string>
+    <string name="no_internet_message">You are not connected to the Internet.</string>
+    <string name="no_internet_title">No Internet connection.</string>
+    <string name="no_server_message">We are sorry for the inconvenience. We are improving the service and our server is under maintenance.</string>
+    <string name="no_server_title">Server under maintenance.</string>
+    <string name="processing_text">Processing..</string>
+
+    <!-- Menu / Action Bar -->
+    <string name="about">About</string>
+    <string name="add">Add</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="artists_desc">songs</string>
+    <string name="cancel">Cancel</string>
+    <string name="home">Home</string>
+    <string name="genres">Genres</string>
+    <string name="genres_desc">artists</string>
+    <string name="search">Search</string>
+    <string name="view_albums">View Albums</string>
+    <string name="view_lyrics">View Lyrics</string>
+
+    <!-- Player -->
+    <string name="next_song">Next song</string>
+    <string name="no_lyric">This song doesn\'t have lyrics yet.</string>
+    <string name="not_selected">You haven\'t selected a song.</string>
+    <string name="not_song">You haven\'t played any song.</string>
+    <string name="previous_song">Previous song</string>
+    <string name="repeat_off">Repeat song: Disabled.</string>
+    <string name="repeat_on">Repeat song: Enabled.</string>
+    <string name="shuffle_off">Shuffle: Disabled.</string>
+    <string name="shuffle_on">Shuffle: Enabled.</string>
+
+    <!-- Playlist -->
+    <string name="playlist_added">Song added to the Playlist.</string>
+    <string name="playlist_already_added">This song is already added.</string>
+    <string name="playlist_deleted">Song removed from the Playlist.</string>
+    <string name="playlist_empty">You haven\'t added songs yet to the Playlist.</string>
+    <string name="playlist_multiple_added">Songs added to the Playlist.</string>
+
+    <!-- Search -->
+    <string name="search_artist_hint">Artist Name..</string>
+    <string name="search_empty">No matches found for your search.</string>
+    <string name="search_hint">Search Song</string>
+    <string name="search_text_empty">You need to enter an artist name or song.</string>
+
+    <!-- Share -->
+    <string name="share">Share</string>
+    <string name="sharing_android_app">on the AndroidSweetPlayer app:</string>
+    <string name="sharing_title">¿How would you like to share?</string>
+</resources>

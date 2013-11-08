@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the context menu shown when the user right clicks in a song -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/context_item_share"
+          android:title="@string/share"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/context_item_view_lyrics"
+          android:title="@string/view_lyrics"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/context_item_add_to_playlist"
+          android:title="@string/add_to_playlist"
+          app:showAsAction="ifRoom"/>
+</menu>

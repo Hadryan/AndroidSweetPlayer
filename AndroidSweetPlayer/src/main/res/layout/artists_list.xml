@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <Spinner
+            android:id="@+id/detail_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/detail_margin"
+            android:layout_marginBottom="@dimen/detail_margin" />
+
+    <TextView
+            android:id="@+id/detail_artist_name"
+            android:layout_below="@id/detail_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/detail_margin"
+            android:textColor="@color/captionTextColor"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/detail_artist_image"
+        android:contentDescription="@string/artists"
+        android:layout_below="@id/detail_artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_list"
+        android:layout_below="@id/detail_artist_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/scroll_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+            android:id="@+id/detail_album_name"
+            android:layout_below="@id/scroll_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/detail_margin"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/detail_list"
+        android:layout_below="@id/detail_album_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
